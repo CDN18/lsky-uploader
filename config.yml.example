@@ -1,0 +1,13 @@
+active: user1
+
+users:
+  - name: user1 # 必填，与active字段一致的为实际使用的配置
+    host: "https://example.com" # 必填
+    token: "Bearer xxxxxxxxxxxxxxxxxxxxxx" # 必填
+    strategy: 1 # 存储策略ID，选填
+    album: 2 # 相册ID，选填
+
+  - name: user2
+    host: "https://example.com"
+    token: "Bearer xxxxxxxxxxxxxxxxxxxxxx"
+    strategy: 3
